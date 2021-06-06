@@ -1,0 +1,35 @@
+h1,
+p {
+  font-family: Lato;
+}
+
+img{
+  width:90vw;
+  height:90vh;
+  opacity: 0.4;
+}
+
+.love-card-bg{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+h1{
+  text-align: center;
+}
+
+
+.centered-items {
+  width:40vw;
+  height:50vh;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  
+}
