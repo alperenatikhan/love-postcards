@@ -36,7 +36,6 @@ export default function App() {
       
       <p> {obj[`${count}`].author}</p>
       <button onClick={handleClick}> New Message </button>
-      <button> Share Tweet </button>
       </div>
     </div>
   );
