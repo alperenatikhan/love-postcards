@@ -7,6 +7,8 @@ img{
   width:90vw;
   height:90vh;
   opacity: 0.4;
+ -webkit-filter: blur(1px); /* Safari 6.0 - 9.0 */
+  filter: blur(1px);
 }
 
 .love-card-bg{
