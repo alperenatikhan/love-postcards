@@ -1,37 +1,35 @@
 h1,
 p {
   font-family: Lato;
+  text-shadow: 0.5rem 0.5rem 1rem white;
 }
 
-img{
-  width:90vw;
-  height:90vh;
+img {
+  width: 90vw;
+  height: 90vh;
   opacity: 0.4;
- -webkit-filter: blur(1px); /* Safari 6.0 - 9.0 */
-  filter: blur(1px);
+  -webkit-filter: blur(1px); /* Safari 6.0 - 9.0 */
+  filter: blur(1px), contrast(0.8), saturate(0.8);
 }
 
-.love-card-bg{
-  display:flex;
+.love-card-bg {
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
 }
 
-h1{
+h1 {
   text-align: center;
 }
 
-
 .centered-items {
-  width:40vw;
-  height:50vh;
+  width: 40vw;
+  height: 50vh;
   color: black;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   position: fixed;
-  
 }
